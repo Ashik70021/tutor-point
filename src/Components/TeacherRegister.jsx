@@ -28,7 +28,7 @@ const TeacherRegister = () => {
                     <label htmlFor="password" className="block dark:text-gray-600">Confirm Password</label>
                     <input name="password" id="password" placeholder="Confirm Password" className="w-full px-4 py-3 rounded-md dark:border-gray-300 dark:bg-gray-50 dark:text-gray-800 focus:dark:border-violet-600 border"   />
                 </div>
-                <button className="block w-full p-3 text-center rounded-s border bg-[#255ED6] text-white">Log in</button>
+                <button className="block w-full p-3 text-center rounded-s border bg-[#255ED6] text-white">Register</button>
             </form>
             
             <p className="text-lg text-center sm:px-6 dark:text-gray-600"> Already have account?
