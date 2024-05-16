@@ -11,6 +11,7 @@ import StudentLogin from './Components/StudentLogin';
 import StudentRegister from './Components/StudentRegister';
 import TeacherLogin from './Components/TeacherLogin';
 import TeacherRegister from './Components/TeacherRegister';
+import Tuiton from './Components/Tuiton';
 
 
 const router = createBrowserRouter([
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
       {
         path:"/teacherRegister",
         element: <TeacherRegister></TeacherRegister>
+      },
+      {
+        path:"/tution",
+        element: <Tuiton></Tuiton>
       },
     ]
   },
